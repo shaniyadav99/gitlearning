@@ -17,7 +17,7 @@ function secondlargest(a)
     return 0;
   }
   let max=Number.MIN_VALUE;
-  for(let i=0;i<a.length;i++)
+  for(let i=1;i<=a.length;i++)
   {
     if(a[i]>max)
     {
