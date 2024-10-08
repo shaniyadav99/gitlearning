@@ -12,7 +12,7 @@ psuedo code-
 9. now if we found S_max we will return it or if we not found we will return null */
 function secondlargest(a)
 {
-  if(a.length<1)
+  if(a.length===1)
   {
     return 0;
   }
